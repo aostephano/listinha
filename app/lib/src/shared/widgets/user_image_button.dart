@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class UserImageButton extends StatelessWidget {
   const UserImageButton({super.key});
@@ -11,7 +10,7 @@ class UserImageButton extends StatelessWidget {
 
     return GestureDetector(
       child: CircleAvatar(
-        child: const Text("A"),
+        child: const Text('A'),
         backgroundColor: colorScheme.primary,
         foregroundColor: colorScheme.onPrimary,
       ),
