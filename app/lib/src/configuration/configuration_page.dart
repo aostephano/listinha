@@ -79,11 +79,11 @@ class _ConfigurationPageState extends State<ConfigurationPage> {
               height: 10,
             ),
             OutlinedButton(
-              onPressed: () {},
               child: Text(
                 'Apagar cache e reiniciar o app',
                 style: Theme.of(context).textTheme.titleSmall,
               ),
+              onPressed: () {},
             ),
           ],
         ),
