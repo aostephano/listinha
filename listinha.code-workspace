@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../FlutterBasics/value_notifier"
 		}
 	],
 	"settings": {}
